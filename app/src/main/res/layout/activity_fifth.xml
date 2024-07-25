@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="0dp"
+    android:clipToOutline="true">
+
+    <ImageView
+        android:id="@+id/arrow_ios_back5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/arrowiosback6" />
+
+    <LinearLayout
+        android:id="@+id/phone_number_container"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="321dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:clipToOutline="true"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/forgetphone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone Number"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/get_otp_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+        android:backgroundTint="#EEEE"
+        android:radius="20dp"
+        android:text="GET OTP"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+</RelativeLayout>

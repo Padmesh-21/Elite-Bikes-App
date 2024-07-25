@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background_gradient"
+    android:clipToOutline="true"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="199dp"
+        android:layout_height="188dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1" />
+
+</FrameLayout>

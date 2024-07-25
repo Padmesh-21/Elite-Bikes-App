@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+        <TextView
+            android:id="@+id/vehicle_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_centerHorizontal="true"
+            android:text="VEHICLE INFO"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/img_13"/>
+
+        <ImageView
+            android:id="@+id/image_12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="40dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/img_14"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="290dp"
+            android:src="@drawable/img_12"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/mech_parts"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="170dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/img_11"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/home_serv"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="170dp"
+            android:src="@drawable/img_10" />
+
+    <include
+        android:id="@+id/group1"
+        layout="@layout/group1"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        />
+
+</RelativeLayout>
